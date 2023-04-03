@@ -1,0 +1,8 @@
+Open Command Prompt "Open As Administrator"
+Execute command one by one
+  takeown /F X:\FULL_PATH_TO_FOLDER
+  takeown /F X:\FULL_PATH_TO_FOLDER /r /d y
+  icacls X:\FULL_PATH_TO_FOLDER /grant Administrators:F
+  icacls X:\FULL_PATH_TO_FOLDER /grant Administrators:F /t
+
+"X:\ is drive letters"
